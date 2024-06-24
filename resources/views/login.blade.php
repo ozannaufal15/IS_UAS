@@ -15,11 +15,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ $title }}</title>
     <!-- CSS files -->
-    <link href="{{ asset('assets/dist/css/tabler.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-flags.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-payments.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-vendors.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/demo.min.css') }}" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/demo.min.css" rel="stylesheet" />
     <style>
         @import url('https://rsms.me/inter/inter.css');
 
@@ -34,13 +34,13 @@
 </head>
 
 <body class=" d-flex flex-column">
-    <script src="{{ asset('assets/dist/js/demo-theme.min.js') }}"></script>
+    <script src="../../../assets/dist/js/demo-theme.min.js"></script>
     <div class="page page-center">
         <div class="container container-tight py-4">
             <div class="text-center">
                 {{-- LOGO --}}
                 <a href="{{ route('index') }}" class="navbar-brand navbar-brand-autodark"><img
-                        src="{{ asset('assets/img/emart-logo.png') }}" height="120" alt="logo"></a>
+                        src="../../../assets/img/emart-logo.png" height="120" alt="logo"></a>
             </div>
             <div class="card card-md">
                 <div class="card-body">
@@ -94,8 +94,8 @@
     </div>
     <!-- Libs JS -->
     <!-- Tabler Core -->
-    <script src="{{ asset('assets/dist/js/tabler.min.js') }}" defer></script>
-    <script src="{{ asset('assets/dist/js/demo.min.js') }}" defer></script>
+    <script src="../../../assets/dist/js/tabler.min.js" defer></script>
+    <script src="../../../assets/dist/js/demo.min.js" defer></script>
 </body>
 
 </html>
