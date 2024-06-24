@@ -131,7 +131,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="card">
-                    <form action="#" method="POST" id="addNewProductForm" enctype="multipart/form-data">
+                    <form action="{{ route('product.store') }}" method="POST" id="addNewProductForm" enctype="multipart/form-data">
                         @csrf
                         <div class="card-body">
                             <div class="alert alert-danger" id="errorMsg" style="display: none">
