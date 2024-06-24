@@ -15,11 +15,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ $title }}</title>
     <!-- CSS files -->
-    <link href="{{ asset('assets/dist/css/tabler.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-flags.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-payments.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-vendors.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/demo.min.css') }}" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/demo.min.css" rel="stylesheet" />
 
     {{-- Addons Libs --}}
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    <script src="{{ asset('assets/dist/js/demo-theme.min.js') }}"></script>
+    <script src="../../../assets/dist/js/demo-theme.min.js"></script>
     <div class="page">
         {{-- Navbar --}}
         @include('layouts.partials.navbar')
@@ -53,14 +53,14 @@
     </div>
 
     <!-- Libs JS -->
-    <script src="{{ asset('assets/dist/libs/apexcharts/dist/apexcharts.min.js') }}" defer></script>
-    <script src="{{ asset('assets/dist/libs/jsvectormap/dist/js/jsvectormap.min.js') }}" defer></script>
-    <script src="{{ asset('assets/dist/libs/jsvectormap/dist/maps/world.js') }}" defer></script>
-    <script src="{{ asset('assets/dist/libs/jsvectormap/dist/maps/world-merc.js') }}" defer></script>
+    <script src="../../../assets/dist/libs/apexcharts/dist/apexcharts.min.js" defer></script>
+    <script src="../../../assets/dist/libs/jsvectormap/dist/js/jsvectormap.min.js" defer></script>
+    <script src="../../../assets/dist/libs/jsvectormap/dist/maps/world.js" defer></script>
+    <script src="../../../assets/dist/libs/jsvectormap/dist/maps/world-merc.js" defer></script>
 
     <!-- Tabler Core -->
-    <script src="{{ asset('assets/dist/js/tabler.js') }}" defer></script>
-    <script src="{{ asset('assets/dist/js/demo.min.js') }}" defer></script>
+    <script src="../../../assets/dist/js/tabler.js" defer></script>
+    <script src="../../../assets/dist/js/demo.min.js" defer></script>
 
     {{-- Addons Libs --}}
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>

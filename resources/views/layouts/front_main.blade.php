@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Mart, Shopping Everyday</title>
     <!-- CSS files -->
-    <link href="{{ asset('assets/dist/css/tabler.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-flags.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-payments.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/tabler-vendors.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/dist/css/demo.min.css') }}" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="../../../assets/dist/css/demo.min.css" rel="stylesheet" />
 
     <script type="text/javascript" src="https://app.sandbox.midtrans.com/snap/snap.js"
         data-client-key="{{ config('midtrans.client_key') }}"></script>
@@ -43,9 +43,9 @@
 
 </body>
 <!-- Tabler Core -->
-<script src="{{ asset('assets/dist/js/tabler.js') }}" defer></script>
-<script src="{{ asset('assets/dist/js/demo.min.js') }}" defer></script>
+<script src="../../../assets/dist/js/tabler.js" defer></script>
+<script src="../../../assets/dist/js/demo.min.js" defer></script>
 
 @stack('scripts')
-
+{{-- ../../../public/ --}}
 </html>
