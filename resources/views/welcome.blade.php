@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="page-welcomer my-5">
-        <h1 class="mb-0" style="color: #555">Hello, welcome to E-Mart!
+        <h1 class="mb-0" style="color: #555">Welcome to Click Cart!
             <br>
             <span style="font-weight: 300">
                 What do you want to buy today?

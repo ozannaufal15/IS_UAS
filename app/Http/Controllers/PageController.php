@@ -21,7 +21,7 @@ class PageController extends Controller
 
 
         return view('welcome', [
-            'title' => "E-Mart | Shopping Everyday",
+            'title' => "Click Cart",
             'products' => $products,
             'cartItemTotal' => $cartItemTotal
         ]);

@@ -19,7 +19,7 @@ class OrderController extends Controller
 
         $lastorderId = Order::orderBy('id', 'DESC')->first()->invoice_id ?? 0;
         $lastIncreament = substr($lastorderId, -3);
-        $invoice_id = 'INV-E-MART-' . date('Ymd') . str_pad($lastIncreament + 1, 3, 0, STR_PAD_LEFT);
+        $invoice_id = 'INV-CLICK-CART-' . date('Ymd') . str_pad($lastIncreament + 1, 3, 0, STR_PAD_LEFT);
 
         $user_id = $validatedData['user_id'];
         $total_price = $validatedData['total_price'];
@@ -80,7 +80,7 @@ class OrderController extends Controller
         $snapToken = \Midtrans\Snap::getSnapToken($params);
 
         return view('checkout', [
-            'title' => 'My Cart | E-Mart',
+            'title' => 'My Cart | Click Cart',
             'orderData' => $order,
             'cart_items' => $cart_items,
             'cartItemTotal' => count($cart_items),
