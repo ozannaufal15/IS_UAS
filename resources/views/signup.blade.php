@@ -46,7 +46,7 @@
                 novalidate>
                 @csrf
                 <div class="card-body">
-                    <h1 class="card-title text-center text-lime h2 mb-4"><b>Register Your E-Mart Account</b></h1>
+                    <h1 class="card-title text-center text-orange h2 mb-4"><b>Register Your Click Cart Account</b></h1>
                     <div class="mb-3">
                         <label class="form-label">First Name</label>
                         <input type="text" class="form-control @error('first_name') is-invalid @enderror"
@@ -97,7 +97,7 @@
                     </div>
 
                     <div class="text-center text-muted mt-3">
-                        Already have account? <a href="{{ route('login') }}" class="text-lime" tabindex="-1">Sign
+                        Already have account? <a href="{{ route('login') }}" class="text-orange" tabindex="-1">Sign
                             in</a>
                     </div>
                 </div>

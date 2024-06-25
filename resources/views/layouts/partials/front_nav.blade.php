@@ -65,7 +65,7 @@
                 </a>
             @else
                 <span class="h3 mb-0">
-                    <a class="btn btn-lime text-white" href="{{ route('login') }}">Login</a>
+                    <a class="btn btn-orange text-white" href="{{ route('login') }}">Login</a>
                     <a class="btn bg-transparent text-orange" href="{{ route('register') }}">Sign Up</a>
                 </span>
             @endif
