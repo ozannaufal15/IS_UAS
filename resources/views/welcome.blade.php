@@ -21,7 +21,7 @@
                     <div class="col-2 mb-3">
                         <div class="card py-3 px-3 d-flex justify-content-center">
                             <img class="align-self-center mb-3"
-                                src="{{ asset('storage/product_img/' . $product->product_image) }}"
+                                src="https://cdn4.iconfinder.com/data/icons/picture-sharing-sites/32/No_Image-1024.png"
                                 style="min-height: 150px; max-height: 150px">
                             <h3>{{ Str::limit($product->product_name, 15) }}</h3>
                             <span>{{ Str::limit($product->product_desc, 32) }}</span>
