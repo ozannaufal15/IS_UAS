@@ -1,8 +1,8 @@
 @if (Auth()->check())
-    <div class="user-details w-100 bg-lime ">
+    <div class="user-details w-100 bg-orange ">
         <div class="container d-flex justify-content-end">
             <div class="d-flex align-items-center gap-2">
-                <div class="badge p-2 bg-lime cursor-pointer">
+                <div class="badge p-2 bg-orange cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="icon icon-tabler icons-tabler-outline icon-tabler-user-square-rounded">
@@ -21,7 +21,7 @@
                 <form action="{{ route('logout') }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button style="border:none;" class="bg-lime text-white">
+                    <button style="border:none;" class="bg-orange text-white">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -42,7 +42,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <div class="brand-logo">
             <a href="{{ route('index') }}">
-                <img src="{{ asset('assets/img/emart-logo.png') }}" alt="e-mart" width="180">
+                <img src="../../../assets/img/emart-logo.png" alt="e-mart" width="180">
             </a>
         </div>
 
@@ -59,7 +59,7 @@
                         <path d="M6 5l14 1l-1 7h-13" />
                     </svg>
                     @if ($cartItemTotal != 0)
-                        <span class="badge bg-lime badge-notification badge-pill">{{ $cartItemTotal }}</span>
+                        <span class="badge bg-orange badge-notification badge-pill">{{ $cartItemTotal }}</span>
                     @endif
                     Cart
                 </a>

@@ -44,7 +44,7 @@
             </div>
             <div class="card card-md">
                 <div class="card-body">
-                    <h2 class="h2 text-center text-lime mb-4">Sign In to your account</h2>
+                    <h2 class="h2 text-center text-orange mb-4">Sign In to your account</h2>
 
                     @include('flash_notification.success')
 
@@ -74,16 +74,16 @@
                         </div>
                         <div class="mb-2">
                             <label class="form-check">
-                                <input type="checkbox" class="form-check-input bg-lime" />
+                                <input type="checkbox" class="form-check-input bg-orange" />
                                 <span class="form-check-label">Remember me on this device</span>
                             </label>
                         </div>
                         <div class="form-footer">
-                            <button type="submit" class="btn btn-lime w-100">Sign in</button>
+                            <button type="submit" class="btn btn-orange w-100">Sign in</button>
                         </div>
                     </form>
                     <div class="text-center text-muted mt-3">
-                        Don't have account yet? <a href="{{ route('register') }}" class="text-lime" tabindex="-1">Sign
+                        Don't have account yet? <a href="{{ route('register') }}" class="text-orange" tabindex="-1">Sign
                             up</a>
                     </div>
                 </div>

@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="form-footer">
-                        <button type="submit" class="btn btn-lime w-100">Create new account</button>
+                        <button type="submit" class="btn btn-orange w-100">Create new account</button>
                     </div>
 
                     <div class="text-center text-muted mt-3">

@@ -34,13 +34,13 @@
                                     <input type="hidden" name="user_id" value="{{ Auth()->user()->id }}">
                                     <input type="hidden" name="product_id" value="{{ $product->id }}">
 
-                                    <button type="submit" class="btn btn-lime"
+                                    <button type="submit" class="btn btn-orange"
                                         {{ $product->stock == 0 ? 'disabled' : '' }}>
                                         {{ $product->stock == 0 ? 'Out of stock' : 'Add to cart' }}
                                     </button>
                                 </form>
                             @else
-                                <button onclick="redirect()" class=" btn btn-lime"
+                                <button onclick="redirect()" class=" btn btn-orange"
                                     {{ $product->stock == 0 ? 'disabled' : '' }}>
                                     {{ $product->stock == 0 ? 'Out of stock' : 'Add to cart' }}
                                 </button>

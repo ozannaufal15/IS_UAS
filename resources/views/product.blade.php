@@ -26,7 +26,7 @@
                     <div class="card">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <h3 class="card-title">Products</h3>
-                            <button href="#" class="btn btn-lime" data-bs-toggle="modal"
+                            <button href="#" class="btn btn-orange" data-bs-toggle="modal"
                                 data-bs-target="#add-new-product">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -198,7 +198,7 @@
                                         href="#">Save</a>
                                 </div>
                                 <div class="col-auto">
-                                    <button type="submit" href="#" class="btn btn-lime"> Save </button>
+                                    <button type="submit" href="#" class="btn btn-orange"> Save </button>
                                 </div>
                             </div>
                         </div>
@@ -287,7 +287,7 @@
                                         href="#">Save</a>
                                 </div>
                                 <div class="col-auto">
-                                    <button type="submit" href="#" class="btn btn-lime"> Save </button>
+                                    <button type="submit" href="#" class="btn btn-orange"> Save </button>
                                 </div>
                             </div>
                         </div>
