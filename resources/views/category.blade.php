@@ -97,7 +97,7 @@
                                         placeholder="Food & Drink" name="category_name" value="{{ old('category_name') }}">
                                 </div>
                                 <div class="operation d-flex justify-content-end">
-                                    <button type="submit" class="btn btn-lime">+ Save New Category</a>
+                                    <button type="submit" class="btn btn-orange">+ Save New Category</a>
                                 </div>
                             </form>
                         </div>

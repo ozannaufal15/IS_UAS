@@ -11,7 +11,7 @@ class UserController extends Controller
     public function register()
     {
         return view('signup', [
-            'title' => 'Sign up new account | E-Mart',
+            'title' => 'Sign up new account | Click Cart',
         ]);
     }
 

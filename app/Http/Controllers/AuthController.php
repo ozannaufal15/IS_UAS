@@ -11,7 +11,7 @@ class AuthController extends Controller
     public function index()
     {
         return view('login', [
-            "title" => "Login to your account | E-Mart"
+            "title" => "Login to your account | Click Cart"
         ]);
     }
 
