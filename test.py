@@ -26,6 +26,6 @@ data = {
     "approval_code": "1719283104760"
 }
 r = requests.post(
-    "https://isecommerce.azurewebsites.net/payment/success", json=data)
+    "https://isecommerce.azurewebsites.net/api/payment/success", json=data)
 
 print(r.status_code)

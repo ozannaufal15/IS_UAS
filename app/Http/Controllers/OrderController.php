@@ -114,7 +114,7 @@ class OrderController extends Controller
         if (!$order) {
             abort(404, "Order Not Found");
         }
-        dd($transaction_status, $type, $fraud, $invoice_id, $order);
+        // dd($transaction_status, $type, $fraud, $invoice_id, $order);
         if ($transaction_status == 'capture' || $transaction_status == 'settlement') {
             if ($type == 'credit_card') {
                 if ($fraud == 'accept') {
