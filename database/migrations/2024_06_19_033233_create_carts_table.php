@@ -16,7 +16,7 @@ return new class extends Migration {
             $table->bigInteger('item_price');
             $table->integer('item_quantity');
             $table->string('invoice_id')->nullable();
-            $table->enum('status', ['unpaid', 'paid']);
+            $table->enum('status', ['unpaid', 'paid'])->default(('unpaid'));
             $table->foreignId('user_id')->constrained();
             $table->timestamps();
         });
