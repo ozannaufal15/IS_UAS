@@ -48,7 +48,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/checkout', [OrderController::class, 'checkout'])->name('order.checkout');
     Route::get('/order-payment/{invoice_id}', [OrderController::class, 'payment'])->name('order.payment');
     Route::get('/order-invoice/{invoice_id}', [OrderController::class, 'invoice'])->name('order.invoice');
-    Route::post('/payment/success', [OrderController::class, 'payment_handler']);
 });
 
 // Admin Route
