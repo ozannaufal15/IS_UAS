@@ -87,7 +87,7 @@
                     <tr>
                         <td></td>
                         <td colspan="4" class="strong text-end"></td>
-                        <td> <button class="btn btn-lime" id="pay-button">Pay Now</button></td>
+                        <td> <button class="btn btn-orange" id="pay-button">Pay Now</button></td>
 
                     </tr>
                 @endif

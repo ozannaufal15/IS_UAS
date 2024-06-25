@@ -85,7 +85,7 @@
                         @csrf
                         <input type="hidden" name="user_id" value="{{ Auth()->User()->id }}">
                         <input type="hidden" name="total_price" value="{{ $subTotal }}">
-                        <button class="btn btn-lime" type="submit">
+                        <button class="btn btn-orange" type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-checks">

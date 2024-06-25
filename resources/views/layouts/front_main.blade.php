@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E-Mart, Shopping Everyday</title>
+    <title>Click Cart, Tinggal klik buat cekout</title>
     <!-- CSS files -->
     <link href="../../../assets/dist/css/tabler.css" rel="stylesheet" />
     <link href="../../../assets/dist/css/tabler-flags.min.css" rel="stylesheet" />
